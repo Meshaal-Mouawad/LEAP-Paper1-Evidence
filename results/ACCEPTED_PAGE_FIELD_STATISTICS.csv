@@ -1,0 +1,12 @@
+field,records,CORRECT,PARTIAL,INCORRECT,UNRESOLVED,NOT_APPLICABLE,applicable,scope
+KPI_identity,300,300,0,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+business_information_origin,300,0,0,0,300,0,300,"Owner accepted technical field assessments, not independent reviews"
+declared_formula_origin,300,0,0,0,0,300,0,"Owner accepted technical field assessments, not independent reviews"
+executable_formula_origin,300,0,0,0,97,203,97,"Owner accepted technical field assessments, not independent reviews"
+provenance_and_lineage,300,0,300,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+published_formula_wording,300,0,0,0,97,203,97,"Owner accepted technical field assessments, not independent reviews"
+review_and_correction_controls,300,0,300,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+review_status_and_reason,300,300,0,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+source_anchor,300,300,0,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+source_association,300,300,0,0,0,0,300,"Owner accepted technical field assessments, not independent reviews"
+unsupported_authoritative_statements,300,294,0,0,6,0,300,"Owner accepted technical field assessments, not independent reviews"

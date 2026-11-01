@@ -1,0 +1,18 @@
+{
+  "all_paired_gold": 723,
+  "jointly_adjudicable_denominator": 626,
+  "joint_original_correct": 0,
+  "joint_upgraded_correct": 0,
+  "joint_correct_proportion_difference": 0.0,
+  "excluded_due_to_upgraded_unresolved": 97,
+  "interpretation": "On the 626 jointly adjudicable cases both systems have NO_FORMULA. This is not proof of equal performance on the 97 unresolved upgraded outputs.",
+  "repository_bootstrap": {
+    "seed": 20261028,
+    "replicates": 10000,
+    "undefined": 0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "metric": "Upgraded minus original documented correct fraction on jointly adjudicable cases only",
+    "interpretation": "All 626 paired resolved cases are NO_FORMULA; interval does not resolve the other 97 outcomes."
+  }
+}

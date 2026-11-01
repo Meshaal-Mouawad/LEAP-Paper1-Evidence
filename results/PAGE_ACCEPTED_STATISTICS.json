@@ -1,0 +1,31 @@
+{
+  "assessed_matched_review_cards": 300,
+  "accepted_review_card_outcomes": {
+    "FULLY_CORRECT": 0,
+    "PARTIALLY_CORRECT": 300,
+    "INCORRECT": 0,
+    "UNRESOLVED": 0
+  },
+  "accepted_complete_page_outcomes": {
+    "FULLY_CORRECT": 0,
+    "PARTIALLY_CORRECT": 0,
+    "INCORRECT": 0,
+    "UNRESOLVED": 300
+  },
+  "complete_page_adjudicable_denominator": 0,
+  "complete_page_correctness_rate": null,
+  "full_page_correctness_identification_range": [
+    0,
+    1
+  ],
+  "range_interpretation": "All assessed complete-page outcomes unresolved; range is not a confidence interval. Review-card partial count must not be substituted.",
+  "upgraded_automatic_TP_denominator": 0,
+  "upgraded_automatic_fidelity_rate": null,
+  "matched_initial_cards": 300,
+  "matched_original_renderer_failures": 5,
+  "all_original_renderer_failures": 196,
+  "diagnostic_only_cards": 42,
+  "original_matched_publications_unavailable": 3,
+  "independent_reviewers": 0,
+  "owner_acceptance": "ACCEPTED_NO_EXCEPTIONS"
+}

@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "independent_matrix_bootstrap_check": true,
+  "individual_intervals": 8,
+  "paired_interval": 1,
+  "replicates": 10000,
+  "seed": 20261028,
+  "unresolved_formula_outcomes_not_imputed": 97,
+  "unresolved_complete_page_outcomes_not_imputed": 300,
+  "no_complete_page_rate_computed": true,
+  "acceptance_before_statistics": true
+}

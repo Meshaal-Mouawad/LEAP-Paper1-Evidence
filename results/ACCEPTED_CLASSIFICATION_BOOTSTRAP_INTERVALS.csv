@@ -1,0 +1,9 @@
+system,metric,point,lower,upper,replicates,undefined_replicates,seed,unit,scope
+original,CORRECT_over_all_gold,0.0,0.0,0.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+original,NO_FORMULA_over_all_gold,1.0,1.0,1.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+original,UNRESOLVED_over_all_gold,0.0,0.0,0.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+original,CORRECT_over_adjudicable,0.0,0.0,0.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+leap_next,CORRECT_over_all_gold,0.0,0.0,0.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+leap_next,NO_FORMULA_over_all_gold,0.8658367911479945,0.6944444444444444,0.9715909090909091,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+leap_next,UNRESOLVED_over_all_gold,0.13416320885200553,0.028409090909090908,0.3055555555555556,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.
+leap_next,CORRECT_over_adjudicable,0.0,0.0,0.0,10000,0,20261028,repository,Variation of accepted classifications across frozen repository resamples; not bounds on unresolved formula correctness.

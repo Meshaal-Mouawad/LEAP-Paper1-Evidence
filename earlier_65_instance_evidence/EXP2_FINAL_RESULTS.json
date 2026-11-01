@@ -1,0 +1,70 @@
+{
+  "artifact_head": "5c80321c9b20082e58ece26b06afdbc310f68850",
+  "artifact_clean": true,
+  "gold_resolved_kpis": 65,
+  "unresolved_kpi_identities": 2,
+  "resolved_formula_oracle_rows": 54,
+  "unresolved_formula_oracle_rows": 11,
+  "method_results": {
+    "LEAP": {
+      "TP": 6,
+      "FP": 2,
+      "FN": 59,
+      "precision": 0.75,
+      "recall": 0.09230769230769231,
+      "F1": 0.16438356164383564,
+      "prediction_count": 8,
+      "bootstrap_ci_raw": "precision=0.750000\tCI95=[0.000000,0.800000]\nrecall=0.092308\tCI95=[0.000000,0.285714]\nF1=0.164384\tCI95=[0.000000,0.421053]"
+    },
+    "keyword_regex": {
+      "TP": 3,
+      "FP": 15,
+      "FN": 62,
+      "precision": 0.16666666666666666,
+      "recall": 0.046153846153846156,
+      "F1": 0.07228915662650603,
+      "prediction_count": 18,
+      "bootstrap_ci_raw": "precision=0.166667\tCI95=[0.000000,0.200000]\nrecall=0.046154\tCI95=[0.000000,0.113636]\nF1=0.072289\tCI95=[0.000000,0.138889]"
+    },
+    "structural": {
+      "TP": 17,
+      "FP": 5,
+      "FN": 48,
+      "precision": 0.7727272727272727,
+      "recall": 0.26153846153846155,
+      "F1": 0.39080459770114945,
+      "prediction_count": 22,
+      "bootstrap_ci_raw": "precision=0.772727\tCI95=[0.444444,0.866667]\nrecall=0.261538\tCI95=[0.129032,0.330000]\nF1=0.390805\tCI95=[0.200000,0.471429]"
+    }
+  },
+  "review_aware": {
+    "promoted": {
+      "TP": 6,
+      "FP": 2,
+      "FN": 59,
+      "precision": 0.75,
+      "recall": 0.09230769230769231,
+      "F1": 0.16438356164383564,
+      "candidate_count": 8
+    },
+    "review_only": {
+      "TP": 3,
+      "FP": 30,
+      "FN": 62,
+      "precision": 0.09090909090909091,
+      "recall": 0.046153846153846156,
+      "F1": 0.061224489795918366,
+      "candidate_count": 33
+    },
+    "combined": {
+      "TP": 9,
+      "FP": 32,
+      "FN": 56,
+      "precision": 0.21951219512195122,
+      "recall": 0.13846153846153847,
+      "F1": 0.16981132075471697,
+      "candidate_count": 41
+    }
+  },
+  "formula_semantic_fidelity": "OPEN_INDEPENDENT_ADJUDICATION"
+}

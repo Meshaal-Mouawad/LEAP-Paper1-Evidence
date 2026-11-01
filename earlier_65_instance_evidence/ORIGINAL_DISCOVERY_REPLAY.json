@@ -1,0 +1,68 @@
+{
+  "input_archive_sha256": "4fb45ee2b61b919d1dd342e40c925f858c81813d6d12c62f9ed8d95b6c8a3724",
+  "input_files": {
+    "scorer": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/validation_scripts/score_predictions.py",
+      "sha256": "e2ef28b23081184d2ef344e25df7c087454e07a592229a9c818c893b42e2a005",
+      "bytes": 1488
+    },
+    "gold": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/GOLD_KPI_INSTANCES_EXP2.csv",
+      "sha256": "0fac28b95c6dc8aa74bf970b13772a78c0d0787450bb9957058aec84628cabd1",
+      "bytes": 40396
+    },
+    "leap": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/exp2_final_results/LEAP_PREDICTIONS.csv",
+      "sha256": "8c9a837b5ad43c6e703e7a531d1029339155cbd17e78ede8f362ac73988c55e7",
+      "bytes": 1010
+    },
+    "regex": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/exp2_final_results/REGEX_PREDICTIONS.csv",
+      "sha256": "1600b84d03dcc93e0aafb27511805ac69b6464f27a23f374875ba8f327525cb0",
+      "bytes": 1220
+    },
+    "structural": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/exp2_final_results/STRUCTURAL_PREDICTIONS.csv",
+      "sha256": "69bb413782dee7a3281d011e20d9b00525c7f90b2589a18df058e181c3ff7318",
+      "bytes": 1649
+    },
+    "historical": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/exp2_final_results/EXP2_FINAL_RESULTS.json",
+      "sha256": "7f5eccc36d7dd82e0b049debe98cb5d36caf6cb7df62697c2f7de92554de9a19",
+      "bytes": 2050
+    },
+    "formula": {
+      "archive_entry": "LEAP_Paper1_P6R12_Assessment/replay/review/evidence_work/new/LEAP_Paper1_IST_P6R7_External_Record_Fidelity/evidence/formula_fidelity_final/FORMULA_FIDELITY_FINAL_RESULTS.json",
+      "sha256": "506ad0c94447d397b8edc97f9cb72f844ece55bf9ff856454fb9cbb3d412466c",
+      "bytes": 1059
+    }
+  },
+  "source_method": "unchanged recovered scorer, executed only against original 65-instance data",
+  "results": {
+    "LEAP": {
+      "TP": 6.0,
+      "FP": 2.0,
+      "FN": 59.0,
+      "precision": 0.75,
+      "recall": 0.092308,
+      "F1": 0.164384
+    },
+    "Regex": {
+      "TP": 3.0,
+      "FP": 15.0,
+      "FN": 62.0,
+      "precision": 0.166667,
+      "recall": 0.046154,
+      "F1": 0.072289
+    },
+    "Structural": {
+      "TP": 17.0,
+      "FP": 5.0,
+      "FN": 48.0,
+      "precision": 0.772727,
+      "recall": 0.261538,
+      "F1": 0.390805
+    }
+  },
+  "all_three_original_metrics_match_manuscript": true
+}

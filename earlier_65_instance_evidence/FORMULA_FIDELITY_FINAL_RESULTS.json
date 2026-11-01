@@ -1,0 +1,23 @@
+{
+  "formula_oracle_resolved_cases": 54,
+  "pre_reconciliation_exact_verdict_agreement_n": 43,
+  "pre_reconciliation_exact_verdict_agreement_rate": 0.7962962962962963,
+  "pre_reconciliation_cohen_kappa": 0.6034712950600801,
+  "reconciled_disagreements": 11,
+  "final_verdict_counts": {
+    "correct": 5,
+    "partially_correct": 30,
+    "incorrect": 12,
+    "no_formula": 7,
+    "uncertain": 0
+  },
+  "strict_semantic_fidelity": 0.09259259259259259,
+  "conditional_strict_fidelity_formula_bearing": 0.10638297872340426,
+  "at_least_partially_faithful_descriptive": 0.6481481481481481,
+  "imported_call_formula_cases_outside_denominator": 11,
+  "reconciliation_sha256": "5e9fbe2597fe9dedbe93b92590bf18b0876232c94a843fc0f24e8fcfba4e4ae9",
+  "volunteer_1_sha256": "eb50b34813d7057a58478bc810782544b2d4d3a6f900e2a43345fe05ed89a6cd",
+  "volunteer_2_sha256": "5511984ece0a50db06861ecd8e2e8e00310bd13beaca0a1acfca23aba6028e7c",
+  "final_status_workbook_sha256": "62dc83cc850a6e7457ac103fb467a3737615d6b740c8cfa9d76b025a94101c1c",
+  "gate": "CLOSED_NEGATIVE_RESULT"
+}
